@@ -4,7 +4,13 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Heagital – Redefining Point-of-Care Diagnostics</title>
+  <title>Heagital | Point-of-care coagulation diagnostics for the NHS</title>
+  <meta name="description" content="Heagital is a UK MedTech company developing a point-of-care coagulation testing device and companion app for NHS settings. Currently in development."/>
+  <meta property="og:title" content="Heagital | Point-of-care coagulation diagnostics for the NHS"/>
+  <meta property="og:description" content="A point-of-care coagulation device and companion app in development for UK healthcare settings."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://www.heagital.com/"/>
+  <link rel="canonical" href="https://www.heagital.com/"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   <style>
@@ -83,6 +89,17 @@ h1 em { font-style: italic; color: var(--red); }
 }
 .hero-sub strong { color: var(--black); font-weight: 700; }
 
+.hero-note {
+  font-size: 11px; letter-spacing: 0.05em; color: var(--grey);
+  opacity: 0; animation: up .7s ease .38s forwards;
+  margin-top: -32px; margin-bottom: 40px;
+  padding-left: 12px; border-left: 2px solid var(--line);
+}
+.hv-caption {
+  position: absolute; bottom: -34px; left: 50%; transform: translateX(-50%);
+  white-space: nowrap; font-size: 9px; letter-spacing: 0.1em;
+  color: var(--grey); opacity: 0.75;
+}
 .hero-btns {
   display: flex; gap: 18px; align-items: center;
   opacity: 0; animation: up .7s ease .42s forwards;
@@ -340,15 +357,16 @@ footer {
       <span class="hero-pill-dot"></span>
       <span class="hero-pill-txt">MedTech &middot; UK &middot; NHS-focused</span>
     </div>
-    <h1>Diagnostics<br>at the speed<br>of <em>life</em></h1>
+    <h1>Coagulation testing,<br>moved to the<br><em>bedside</em></h1>
     <p class="hero-sub">
-      The NHS can't afford to wait. Neither can patients.
-      Heagital is bringing <strong>clinical-grade coagulation diagnostics</strong>
-      directly to the point of care — faster answers, better decisions, right when it matters most.
+      Most coagulation results still come back from a central lab. That delay shapes what a clinician
+      can do in the room. Heagital is developing a <strong>point-of-care coagulation device and companion app</strong>
+      for NHS settings, so the result arrives during the consultation rather than after it.
     </p>
+    <p class="hero-note">In development. Not yet UKCA marked. Not available for sale.</p>
     <div class="hero-btns">
       <a href="#contact" class="btn-r">Enquiries</a>
-      <a href="#services" class="btn-g">See what we do</a>
+      <a href="#services" class="btn-g">What we are building</a>
     </div>
   </div>
   <div class="hero-right">
@@ -359,9 +377,10 @@ footer {
       <div class="hv-dot hv-d1"></div>
       <div class="hv-dot hv-d2"></div>
       <div class="hv-dot hv-d3"></div>
-      <div class="hv-label hv-l1">PT — 12.1s</div>
-      <div class="hv-label hv-l2">INR — 1.02</div>
-      <div class="hv-label hv-l3">APTT — 28s</div>
+      <div class="hv-label hv-l1">PT</div>
+      <div class="hv-label hv-l2">INR</div>
+      <div class="hv-label hv-l3">APTT</div>
+      <div class="hv-caption">Illustrative interface concept. Not clinical data.</div>
       <div class="hv-center">
         <div class="hv-v"></div>
         <div class="hv-h"></div>
@@ -374,22 +393,24 @@ footer {
 
 <div class="marquee-wrap">
   <div class="marquee-track">
-    <span class="marquee-item">Point-of-Care Diagnostics</span>
-    <span class="marquee-item">NHS-ready pathways</span>
-    <span class="marquee-item">Coagulation Testing</span>
-    <span class="marquee-item">Tracking Application</span>
-    <span class="marquee-item">Clinical Innovation</span>
-    <span class="marquee-item">Earlier intervention</span>
-    <span class="marquee-item">Faster diagnostics</span>
-    <span class="marquee-item">Smarter decisions</span>
-    <span class="marquee-item">Point-of-Care Diagnostics</span>
-    <span class="marquee-item">NHS-ready pathwaysy</span>
-    <span class="marquee-item">Coagulation Testing</span>
-    <span class="marquee-item">Tracking Application</span>
-    <span class="marquee-item">Clinical Innovation</span>
-    <span class="marquee-item">Earlier intervention</span>
-    <span class="marquee-item">Faster diagnostics</span>
-    <span class="marquee-item">Smarter decisions</span>
+    <span class="marquee-item">PT</span>
+    <span class="marquee-item">INR</span>
+    <span class="marquee-item">APTT</span>
+    <span class="marquee-item">Anticoagulation monitoring</span>
+    <span class="marquee-item">Atrial fibrillation</span>
+    <span class="marquee-item">Point-of-care testing</span>
+    <span class="marquee-item">Companion app</span>
+    <span class="marquee-item">NHS pathways</span>
+    <span class="marquee-item">UKCA pathway</span>
+    <span class="marquee-item">PT</span>
+    <span class="marquee-item">INR</span>
+    <span class="marquee-item">APTT</span>
+    <span class="marquee-item">Anticoagulation monitoring</span>
+    <span class="marquee-item">Atrial fibrillation</span>
+    <span class="marquee-item">Point-of-care testing</span>
+    <span class="marquee-item">Companion app</span>
+    <span class="marquee-item">NHS pathways</span>
+    <span class="marquee-item">UKCA pathway</span>
   </div>
 </div>
 
@@ -397,25 +418,25 @@ footer {
 
 <section class="services" id="services">
   <div class="sec-label">What we do</div>
-  <h2 class="sec-title" style="margin-bottom:52px">Smarter care starts with <em>faster answers</em></h2>
+  <h2 class="sec-title" style="margin-bottom:52px">What we are <em>building</em></h2>
   <div class="srv-grid">
     <div class="srv-card">
       <div class="srv-n">01</div>
-      <div class="srv-name">Point-of-Care Coagulation Testing</div>
-      <p class="srv-desc">From the central lab to the bedside. Our diagnostic technology cuts wait times and puts coagulation results in clinicians' hands the moment they need them — in A&amp;E, outpatient, and community care settings.</p>
-      <span class="srv-tag">Diagnostics</span>
+      <div class="srv-name">The device</div>
+      <p class="srv-desc">A benchtop-free coagulation analyser designed for use at the point of care. The target assay panel is PT, INR and APTT from a capillary sample. Intended settings are anticoagulation clinics, community care and acute assessment. Currently in development.</p>
+      <span class="srv-tag">Device</span>
     </div>
     <div class="srv-card">
       <div class="srv-n">02</div>
-      <div class="srv-name">NHS Decision Intelligence</div>
-      <p class="srv-desc">We turn complex NHS data into clear strategy. Our market frameworks guide procurement alignment, regional deployment, and AF registry targeting so health systems can act with confidence.</p>
-      <span class="srv-tag">Strategy</span>
+      <div class="srv-name">The companion app</div>
+      <p class="srv-desc">Results from the device feed a companion application that records readings over time, flags values outside the therapeutic range, and gives the clinician a trend rather than a single number. Designed to fit existing anticoagulation workflows.</p>
+      <span class="srv-tag">Software</span>
     </div>
     <div class="srv-card">
       <div class="srv-n">03</div>
-      <div class="srv-name">Clinical Deployment Infrastructure</div>
-      <p class="srv-desc">UKCA-compliant from the ground up. We support pilot design, clinical validation, and full NHS market entry — building the infrastructure for technology that actually reaches patients.</p>
-      <span class="srv-tag">Infrastructure</span>
+      <div class="srv-name">The route to the NHS</div>
+      <p class="srv-desc">We are building toward UKCA conformity under the UK IVDR framework, with clinical validation and pilot design planned alongside it. Deployment priorities are set by an internal model that ranks all 42 NHS Integrated Care Boards on clinical risk, adoption readiness and procurement friction.</p>
+      <span class="srv-tag">Regulatory</span>
     </div>
   </div>
 </section>
@@ -424,16 +445,16 @@ footer {
 
 <div class="impact">
   <div class="impact-item">
-    <div class="impact-num">NHS</div>
-    <div class="impact-label">Focused entirely on UK healthcare market entry and clinical partnerships</div>
+    <div class="impact-num">42</div>
+    <div class="impact-label">NHS Integrated Care Boards ranked in our deployment model</div>
   </div>
   <div class="impact-item">
-    <div class="impact-num">POCT</div>
-    <div class="impact-label">Bedside coagulation testing — no lab delays, no waiting, just answers</div>
+    <div class="impact-num">PT / INR / APTT</div>
+    <div class="impact-label">Target assay panel from a single capillary sample</div>
   </div>
   <div class="impact-item">
     <div class="impact-num">2025</div>
-    <div class="impact-label">UK-incorporated and advancing toward clinical deployment at pace</div>
+    <div class="impact-label">Incorporated in England and Wales, November 2025</div>
   </div>
 </div>
 
@@ -443,9 +464,9 @@ footer {
   <div class="team-head">
     <div>
       <div class="sec-label">Our team</div>
-      <h2 class="sec-title">The people<br><em>driving</em> Heagital</h2>
+      <h2 class="sec-title">The <em>founding</em> team</h2>
     </div>
-    <p class="team-intro-p">A multidisciplinary founding team combining biomedical engineering, decision science, financial strategy, and clinical systems expertise — united by a shared mission to transform diagnostics in the UK.</p>
+    <p class="team-intro-p">Four founders. Biomedical engineering, decision science, systems architecture and finance.</p>
   </div>
   <div class="tm-grid">
 
@@ -453,7 +474,7 @@ footer {
   <div class="tm-avatar">A</div>
   <div class="tm-name">Amirreza Taqizade</div>
   <div class="tm-role">CEO &amp; Co-Founder</div>
-  <p class="tm-bio">Biomedical engineer and entrepreneur. Founded Heagital to bring clinical-grade coagulation diagnostics to point-of-care settings. Drives the company's vision, product strategy, and clinical development roadmap.</p>
+  <p class="tm-bio">Biomedical engineer. Postgraduate degree from King's College London. Leads company direction, product strategy and the clinical development roadmap.</p>
   <a href="https://www.linkedin.com/in/amirrezatqz" target="_blank" rel="noopener" class="tm-link">
     <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.91 1.64-1.86 3.37-1.86 3.6 0 4.27 2.37 4.27 5.45v6.3zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
     LinkedIn
@@ -463,8 +484,8 @@ footer {
 <div class="tm-card">
   <div class="tm-avatar">H</div>
   <div class="tm-name">Hoda Rezvanjoo</div>
-  <div class="tm-role">Co-Founding Director &amp; Decision Support Lead</div>
-  <p class="tm-bio">Leads decision intelligence architecture and NHS market strategy at Heagital. Specialist in healthcare decision systems, regional deployment modelling, and UK market entry frameworks for MedTech.</p>
+  <div class="tm-role">Co-Founder &amp; Chief Systems Officer</div>
+  <p class="tm-bio">DBA in business intelligence and decision quality. Built the Market Decision Engine that ranks the 42 NHS Integrated Care Boards for deployment priority. Owns market modelling, decision architecture and UK market entry strategy.</p>
   <a href="https://www.linkedin.com/in/hoda-rezvanjoo" target="_blank" rel="noopener" class="tm-link">
     <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.91 1.64-1.86 3.37-1.86 3.6 0 4.27 2.37 4.27 5.45v6.3zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
     LinkedIn
@@ -474,15 +495,15 @@ footer {
 <div class="tm-card">
   <div class="tm-avatar">A</div>
   <div class="tm-name">Amirhossein</div>
-  <div class="tm-role">CTO &amp; Co-Founder</div>
-  <p class="tm-bio">Leads the technical architecture and engineering direction of Heagital's diagnostic platform. Drives the product's development pathway from prototype through to clinical-grade deployment.</p>
+  <div class="tm-role">Co-Founder &amp; CTO</div>
+  <p class="tm-bio">Leads the technical architecture of the device and the engineering pathway from prototype to clinical-grade build.</p>
 </div>
 
 <div class="tm-card">
   <div class="tm-avatar">R</div>
   <div class="tm-name">Reza Shayanfar</div>
   <div class="tm-role">CFO</div>
-  <p class="tm-bio">Oversees the financial strategy and commercial planning at Heagital. Brings rigorous financial direction to the company's fundraising, growth modelling, and NHS market investment planning.</p>
+  <p class="tm-bio">Owns financial strategy, fundraising and commercial planning, including the investment case for NHS market entry.</p>
   <a href="https://www.linkedin.com/in/rezashayanfar" target="_blank" rel="noopener" class="tm-link">
     <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.91 1.64-1.86 3.37-1.86 3.6 0 4.27 2.37 4.27 5.45v6.3zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
     LinkedIn
@@ -496,10 +517,10 @@ footer {
 
 <section class="fund">
   <div>
-    <h2>Built with purpose.<br><em>Ready to scale.</em></h2>
+    <h2>We are raising.<br><em>Talk to us.</em></h2>
   </div>
   <div>
-    <p class="fund-desc">We are seeking partners — investors, NHS clinical teams, and research institutions — who believe that faster diagnostics save lives. If that's you, let's talk.</p>
+    <p class="fund-desc">Heagital is pre-revenue and currently fundraising. We are looking for investors with MedTech experience, NHS clinical teams willing to shape the pilot design, and research partners for validation work.</p>
     <div class="fund-btns">
       <a href="#contact" class="btn-w">Get in touch</a>
       <a href="https://www.linkedin.com/company/heagital/" target="_blank" rel="noopener" class="btn-linkedin">
@@ -515,22 +536,22 @@ footer {
 <section class="contact" id="contact">
   <div>
     <div class="sec-label">Contact</div>
-    <h2>Let's build the future of <em>diagnostics</em> together</h2>
-    <p class="contact-sub">Whether you are an investor, an NHS clinical team, or a research institution, we welcome conversations about how Heagital can work with you.</p>
+    <h2>Start a <em>conversation</em></h2>
+    <p class="contact-sub">Investment, clinical partnership, or validation work. Email us and we will come back to you.</p>
   </div>
   <div>
     <div class="ci-list">
       <div>
         <div class="ci-label">Email</div>
-        <div class="ci-val">hello@heagital.com</div>
+        <div class="ci-val"><a href="mailto:hello@heagital.com" style="color:var(--red);text-decoration:none;font-family:'Playfair Display',serif;font-size:16px;">hello@heagital.com</a></div>
       </div>
       <div>
-        <div class="ci-label">Location</div>
-        <div class="ci-val">United Kingdom</div>
+        <div class="ci-label">Registered office</div>
+        <div class="ci-val" style="font-size:14px;line-height:1.7;">128 City Road<br>London EC1V 2NX<br>United Kingdom</div>
       </div>
       <div>
         <div class="ci-label">Enquiries</div>
-        <div class="ci-val">Investment &middot; Partnerships &middot; Clinical trials</div>
+        <div class="ci-val">Investment &middot; Clinical partnerships &middot; Validation</div>
       </div>
       <div>
         <div class="ci-label">LinkedIn</div>
@@ -539,7 +560,7 @@ footer {
         </div>
       </div>
     </div>
-    <div class="reg-note">Heagital Ltd — registered in England and Wales.<br>Company number: 16855753</div>
+    <div class="reg-note">Heagital Ltd. Registered in England and Wales.<br>Company number 16855753.<br>Registered office: 128 City Road, London, EC1V 2NX, United Kingdom.</div>
   </div>
 </section>
 
@@ -562,7 +583,7 @@ footer {
     <a href="https://www.linkedin.com/company/heagital/" target="_blank" rel="noopener" class="ft-li" aria-label="LinkedIn">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.91 1.64-1.86 3.37-1.86 3.6 0 4.27 2.37 4.27 5.45v6.3zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
     </a>
-    <span class="ft-copy">&copy; 2025 Heagital Ltd. All rights reserved.</span>
+    <span class="ft-copy">&copy; 2026 Heagital Ltd. All rights reserved.</span>
   </div>
 </footer>
 
